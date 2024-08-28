@@ -9,10 +9,7 @@ def sum(products):
     name = ""
     max = 0
     for i in range(len(products)):
-        if max == 0:
-            max = products[0]["price"]
-            name = products[i]["name"]
-        elif products[i]["price"] > max:
+        if products[i]["price"] > max:
             max = products[i]["price"]
             name = products[i]["name"]
 

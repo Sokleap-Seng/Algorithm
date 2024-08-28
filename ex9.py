@@ -8,7 +8,7 @@
 def averge(products):
     average = 0
     for i in range(len(products)):
-        average += products[i]["price"]*10/100
+        average += products[i]["price"]/2
     
     return average
 number_product = [
